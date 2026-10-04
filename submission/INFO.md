@@ -1,0 +1,22 @@
+# Thông tin bài nộp — K4-Track02-Day18 Lakehouse Lab
+
+- **Họ và tên:** Bùi Lê Gia Huy
+- **Mã số sinh viên (MSSV):** 2A202602607
+- **Mã bài lab:** `K4-Track02-Day18`
+- **Tên repository:** `K4-Track02-Day18-BuiLeGiaHuy-2A202602607-Lakehouse-La`
+- **GitHub username:** `blgihuy`
+- **GitHub URL:** `https://github.com/blgihuy/K4-Track02-Day18-BuiLeGiaHuy-2A202602607-Lakehouse-La`
+- **Đường chạy thực thi (Execution Path):** Lightweight path (Python APIs: `deltalake` 1.6.6 + `duckdb` 1.5.6 + `polars` 1.44.2 + `pyiceberg` 0.12.0)
+- **Phiên bản Python:** Python 3.11.9 (64-bit)
+- **Hệ điều hành:** Windows 11 (AMD64)
+- **Các notebook bắt buộc đã hoàn thành (Part A & Part B - 8/8):**
+  - 3.1. Delta basics — NB1 (`01_delta_basics.ipynb`)
+  - 3.2. Compaction và Z-order — NB2 (`02_optimize_zorder.ipynb`)
+  - 3.3. MERGE, time travel và RESTORE — NB3 (`03_time_travel.ipynb`)
+  - 3.4. Pipeline Bronze → Silver → Gold — NB4 (`04_medallion.ipynb`)
+  - 3.5. Iceberg và catalog — NB5 (`05_iceberg_catalog.ipynb`)
+  - 3.6. Maintenance — NB6 (`06_maintenance.ipynb`)
+  - 3.7. Multimodal và vectors — NB7 (`07_vectors_multimodal.ipynb`)
+  - 3.8. Agents, version pin và provenance — NB8 (`08_agents_provenance.ipynb`)
+- **Phần Bonus tùy chọn (Architecture Brief):**
+  - 3.9. Bonus Challenge: `submission/bonus/ARCHITECTURE.md` (Topic A: LLM Observability ở quy mô 1B requests/ngày).

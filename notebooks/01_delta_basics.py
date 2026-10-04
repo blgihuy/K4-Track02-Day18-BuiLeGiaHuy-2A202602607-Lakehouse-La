@@ -68,6 +68,7 @@ new = pl.DataFrame({
 })
 write_deltalake(table_path, new.to_arrow(), mode="append", schema_mode="merge")
 dt = DeltaTable(table_path)
+print(dt.schema())
 # Sort by id so the printout is stable across reruns — Delta does not
 # preserve write-order across appends.
 print(pl.from_arrow(dt.to_pyarrow_table()).sort("id"))
